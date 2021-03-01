@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MainText" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">?attr/colorPrimary</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:layout_margin">10sp</item>
+        <item name="android:layout_marginBottom">20sp</item>
+    </style>
+</resources>
