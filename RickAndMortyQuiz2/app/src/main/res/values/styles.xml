@@ -2,8 +2,13 @@
 <resources>
     <style name="MainText" parent="TextAppearance.AppCompat">
         <item name="android:textColor">?attr/colorPrimary</item>
-        <item name="android:textSize">32sp</item>
+        <item name="android:textSize">24sp</item>
         <item name="android:layout_margin">10sp</item>
         <item name="android:layout_marginBottom">20sp</item>
+    </style>
+    <style name="HeaderText" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">?attr/colorSecondary</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:layout_marginStart">90sp</item>
     </style>
 </resources>
