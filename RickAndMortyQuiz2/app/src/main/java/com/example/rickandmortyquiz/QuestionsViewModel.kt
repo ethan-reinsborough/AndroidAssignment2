@@ -25,4 +25,8 @@ class QuestionsViewModel : ViewModel() {
         Question(R.string.question_19, false),
         Question(R.string.question_20, true)
     )
+
+    private var attemptedQuestions = 0
+    private var questionCount = 0
+    private lateinit var _questionList: MutableList<Question>
 }
