@@ -21,6 +21,17 @@
         android:name="com.example.rickandmortyquiz.Questions"
         android:label="fragment_questions"
         tools:layout="@layout/fragment_questions" >
-
+    </fragment>
+    <fragment
+        android:id="@+id/rules"
+        android:name="com.example.rickandmortyquiz.Rules"
+        android:label="fragment_rules"
+        tools:layout="@layout/fragment_rules" >
+    </fragment>
+    <fragment
+        android:id="@+id/about"
+        android:name="com.example.rickandmortyquiz.About"
+        android:label="fragment_about"
+        tools:layout="@layout/fragment_about" >
     </fragment>
 </navigation>
