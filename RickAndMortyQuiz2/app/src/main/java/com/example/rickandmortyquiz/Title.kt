@@ -17,12 +17,7 @@ class Title : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-        binding = DataBindingUtil.inflate(
-                inflater,
-                R.layout.fragment_title,
-                container,
-                false
-                )
+        binding = DataBindingUtil.inflate(inflater, R.layout.fragment_title, container, false)
 
         binding.btnPlay.setOnClickListener {
             NavHostFragment.findNavController(this).navigate(TitleDirections.actionTitleToQuestionsFragment())
